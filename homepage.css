@@ -1,0 +1,66 @@
+body{
+	background-color:#609ddf;
+	color:white;
+}
+
+.startSectionDIV{
+	height: calc(100vh + 50px);
+	width:100%;
+}
+
+.mediumSectionDIV{
+	height:900px;
+}
+
+.strip{
+	height:6px;
+	background-color:white;
+	width:100%;
+}
+
+.centerPage{
+	text-align:center;
+	margin:20px;
+}
+
+.flex{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.emphasis{
+		color:#df6260;
+		text-shadow: 1px 2px 0px rgba(175, 59, 59, 0.5);
+}
+
+.titleSize{
+	font-size:2em;
+}
+
+.viewButton,.viewButton:hover,.viewButton:active,.viewButton:hover:active{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    color: #000000;
+    font-size: 1.75em;
+	cursor:pointer;
+    font-weight: bold;
+	text-decoration:none;
+}
+
+@media screen and (min-width: 780px){
+	.titleSize{
+		font-size:5em;
+	}
+
+	.viewButton,.viewButton:hover,.viewButton:active,.viewButton:hover:active{
+		font-size:2.25em;
+	}
+
+	.centerPage{
+		margin:40px;
+	}
+}
+
