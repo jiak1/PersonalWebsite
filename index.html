@@ -7,29 +7,36 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js" integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd" crossorigin="anonymous"></script>
 
     <meta name="viewport" content="width=device-width">
-    <title>Jack Donaldson</title>
+    <title>Jack Donaldson - Software Developer</title>
     <link href="base.css" rel="stylesheet" type="text/css" />
 	<link href="homepage.css" rel="stylesheet" type="text/css" />
 
 	<meta property="og:title" content="Jack Donaldson | Software Developer" />
 	<meta property="og:image" content="https://testing.jackdonaldson.net/ogimage.webp" />
 	<meta property="og:description" content="Jack Donaldson is a Web & Games Programmer from Sydney, Australia. View all of his current projects and see what he is up to!" />
+	<meta name="description" content="Jack Donaldson is a Software Developer & Programmer from Sydney, Australia. View his previous projects and find contact information here!">
   </head>
   <body>
 	  <div class="startSectionDIV flex">
 		<div class="flex centerPage">
 			<h1 class="titleSize"><span class="wave">👋</span><span class="typewrite" data-period="2000" data-type='["Hi","Welcome","G&#39;Day","Ni Hao","Bonjour","Hola"]'><span class="wrap">Hi</span></span>, I'm <span class="emphasis">Jack</span>.<br>A programmer + high school student.</h1>
-			<a class="viewButton" id="ViewWorkButton" href="#sec2">Learn More</a>
+			<a class="viewButton" id="ViewWorkButton" href="#AboutMe">Learn More</a>
 		</div>
 	  </div>
-	  <div class="strip" id="sec2"></div>
+	  <div class="strip" id="AboutMe"></div>
 	  <div class="mediumSectionDIV" style="background-color:#39424a">
 		  <div class="container-sm" style="padding-top:50px">
-		  	<h2 id="heading" style="text-align:left;font-size:3rem;">About Me</h2>
-			
+		  	<h2 id="heading" style="text-align:left;font-size:3rem;margin-bottom:20px;">About Me</h2>
+		  <div class="row row-cols-1 row-cols-md-2">
+			<div class="col mb-4" style="width:100%;text-align:justify;font-size:18px;">
+			  <p>Currently I am studying for my final year of High School and aim to venture into a Software Engineering Degree at University!</p>
+			  <p>I have been programming from a young age and <b>love making games,</b> particularly in C# with the help of Unity. With this I was able to complete my project <b>Retract</b> which won an Australia wide video game competition.</p>
+			  <p>Alongside games I have been experimenting with lots of other languages from <b>C++, Java & Python</b> to more web based languages such as <b>Javascript, HTML & CSS.</b> Whilst website design has been my current focus I am also working on a Desktop Application for a local business as well as a Mobile App aimed at helping School Aged Students Study.</p>
+			  <p>I love checking out what other people are up to and helping other programmers when I can particularly through my <b>Online Courses</b> that have reached <b>over 20,000 different students!</b> So if you want to chat send me an email or contact me on social media, I would love to hear from you 😀</p>
+		  	</div>
 		  </div>
 	  </div>
-	   <div class="strip" id="sec3"></div>
+	   <div class="strip" id="MyWork"></div>
 	  <div class="mediumSectionDIV" style="background-color:#df6260">
 		  <div class="container-sm" style="padding-top:50px;padding-bottom:50px">
 		  	<h2 id="heading" style="text-align:center;font-size:3rem;">My Work</h2>
@@ -39,6 +46,9 @@
 					<div class="col mb-4" style="width:100%">
 						<div class="card h-100">
 						<img src="MCServer.PNG" class="card-img-top" style="max-height:300px;min-height:300px">
+						<div class="image-title-overlay">
+							<h1 class="image-title">Game Server Lists</h1>
+						</div>
 						<div class="image-overlay">
 							<div class="fullCenter">
 							<h1 class="overlay-h1">Game Server Lists</h1>
@@ -52,6 +62,9 @@
 					<div class="col mb-4" style="width:100%">
 						<div class="card h-100">
 						<img src="retract.png" class="card-img-top" style="max-height:300px;min-height:300px">
+						<div class="image-title-overlay">
+							<h1 class="image-title">Retract</h1>
+						</div>
 						<div class="image-overlay">
 							<div class="fullCenter">
 							<h1 class="overlay-h1">Retract</h1>
@@ -65,6 +78,9 @@
 					<div class="col mb-4" style="width:100%">
 						<div class="card h-100">
 						<img src="shape.jpg" class="card-img-top" style="max-height:300px;min-height:300px">
+						<div class="image-title-overlay">
+							<h1 class="image-title">Shape Palette</h1>
+						</div>
 						<div class="image-overlay">
 							<div class="fullCenter">
 							<h1 class="overlay-h1">Shape Palette</h1>
@@ -77,6 +93,9 @@
 					<div class="col mb-4" style="width:100%">
 						<div class="card h-100">
 						<img src="courses.PNG" class="card-img-top" style="max-height:300px;min-height:300px">
+						<div class="image-title-overlay">
+							<h1 class="image-title">Online Courses</h1>
+						</div>
 						<div class="image-overlay">
 							<div class="fullCenter">
 							<h1 class="overlay-h1">Online Courses</h1>
@@ -94,10 +113,13 @@
 					<div class="col mb-4" style="width:100%">
 						<div class="card h-100">
 						<img src="meals.PNG" class="card-img-top" style="max-height:300px;min-height:300px">
+						<div class="image-title-overlay">
+							<h1 class="image-title">Meal Planner</h1>
+						</div>
 						<div class="image-overlay">
 							<div class="fullCenter">
 							<h1 class="overlay-h1">Meal Planner</h1>
-							<p class="overlay-text">A desktop application designed for a client which keeps track of clients and generates custom meal plans quickly & easily.</p>
+							<p class="overlay-text">A desktop application designed for a nutritionist which keeps track of patients and generates custom meal plans quickly & easily.</p>
 							</div>
 						</div>
 						</div>
@@ -105,10 +127,13 @@
 					<div class="col mb-4" style="width:100%">
 						<div class="card h-100">
 						<img src="classta.PNG" class="card-img-top" style="max-height:300px;min-height:300px">
+						<div class="image-title-overlay">
+							<h1 class="image-title">Study App</h1>
+						</div>
 						<div class="image-overlay">
 							<div class="fullCenter">
 							<h1 class="overlay-h1">Classta</h1>
-							<p class="overlay-text">A mobile app that allows people to form study groups by finding others in their local area. Aimed at high school students this aims to help people in remote areas.</p>
+							<p class="overlay-text">A mobile app that allows people to form study groups by finding others in their local area. Aimed at high school students this aims to help people in remote areas connect.</p>
 							</div>
 						</div>
 						</div>
@@ -117,6 +142,49 @@
 			</div>
 		  </div>
 	</div>
+
+<!-- Footer -->
+<footer class="page-footer font-small unique-color-dark" style="">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div class="row mt-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 mx-auto mb-4">
+
+        <!-- Content -->
+        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+        <hr class="deep-purple accent-2 mb-2 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>Want to get in contact? Send an email to <a class="white-link" href="mailto:contact@jackdonaldson.net" target="_blank">contact@jackdonaldson.net</a></p>
+
+      </div>
+
+	  <!-- Grid column -->
+      <div class="col-md-3 col-lg-3 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 class="text-uppercase font-weight-bold">Social Media</h6>
+        <hr class="deep-purple accent-2 mb-2 mt-0 d-inline-block mx-auto" style="width: 60px;">
+		  <div>
+			<a class="img-link" href="https://twitter.com/jiak1_" target="_blank">
+			  <img class="white-img" src="twitter.svg" style="height:37px" />
+			</a>
+			<a class="img-link" href="https://discord.gg/KW53mHt" target="_blank">
+			  <img class="white-img" src="discord.svg" />
+			</a>
+		  </div>
+
+      </div>
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
 	<div class="loader-wrapper transition open">
 		<span class="loader"><span class="loader-inner"><object type="image/svg+xml" data="FinalLogo.svg"></object></span></span>
 	</div>
