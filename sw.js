@@ -19,7 +19,8 @@ self.addEventListener("install", function(event) {
         return cache.addAll([
           '/',
           '/homepage.css',
-          '/base.css'
+          '/base.css',
+		  '/favicon.ico'
         ]);
       })
       .then(function() {
