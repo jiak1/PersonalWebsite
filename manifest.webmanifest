@@ -1,0 +1,16 @@
+{
+  "short_name": "Jack Portfolio",
+  "name": "Jack Donaldson",
+  "description": "A website showcasing all of the projects Jack has worked on as well as his contact details.",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "72x72 96x96 128x128 192x192 256x256"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#df6260",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "white"
+}
