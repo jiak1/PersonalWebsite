@@ -20,7 +20,8 @@ self.addEventListener("install", function(event) {
           '/',
           '/homepage.css',
           '/base.css',
-		  '/favicon.ico'
+		  '/favicon.ico',
+		  '/FinalLogo.svg'
         ]);
       })
       .then(function() {
