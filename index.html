@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+	<link rel="preload" href="FinalLogo.webp" as="image">
     <meta charset="utf-8">
 	<meta name="theme-color" content="#212529"/>
 	<link rel="manifest" href="manifest.webmanifest">
@@ -207,7 +208,8 @@
   <!-- Footer Links -->
 
 	<div class="loader-wrapper transition open">
-		<object type="image/svg+xml" data="FinalLogo.svg"></object><div class="LoadingCenterText"><span class="loadingLetter">J</span></div>
+		<img src="FinalLogo.webp" class="rotate" />
+		<div class="LoadingCenterText"><span class="loadingLetter">J</span></div>
 	</div>
 	<script>
 		$(window).on("load",function(){

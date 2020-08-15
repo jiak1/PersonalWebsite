@@ -88,3 +88,16 @@ span.wave {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.rotate {
+  animation: rotation 1s infinite linear;
+}

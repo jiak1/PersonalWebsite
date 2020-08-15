@@ -21,7 +21,7 @@ self.addEventListener("install", function(event) {
           '/homepage.css',
           '/base.css',
 		  '/favicon.ico',
-		  '/FinalLogo.svg'
+		  '/FinalLogo.webp'
         ]);
       })
       .then(function() {
