@@ -1,4 +1,4 @@
-var version = 'v1:1:3';
+var version = 'v1:1:4';
 self.addEventListener("install", function(event) {
   //console.log('WORKER: install event in progress.');
   event.waitUntil(
